@@ -1,1 +1,3 @@
-export { default as default } from './Component.svelte';
+import Clock from './Clock.svelte';
+
+export default Clock;

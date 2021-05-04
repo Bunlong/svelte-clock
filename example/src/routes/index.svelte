@@ -1,5 +1,5 @@
 <script>
-	import MyComponent from '../../../src/index.js';
+	import Clock from '../../../src/index.js';
 </script>
 
 <style>
@@ -28,6 +28,10 @@
 			font-size: 4em;
 		}
 	}
+
+	.clock-size {
+		width: 35%;
+	}
 </style>
 
 <svelte:head>
@@ -35,8 +39,12 @@
 </svelte:head>
 
 <h1>
-	<MyComponent />
+
 </h1>
+
+<div class="clock-size">
+	<Clock />
+</div>
 
 <figure>
 	<figcaption>Have fun with Sapper!</figcaption>
