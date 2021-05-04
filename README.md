@@ -2,23 +2,51 @@
 
 An analog clock for your Svelte apps.
 
-Your component's source code lives in `src/Component.svelte`.
+[![NPM](https://img.shields.io/npm/v/svelte-clock.svg)](https://www.npmjs.com/package/svelte-clock) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-You can create a package that exports multiple components by adding them to the `src` directory and editing `src/index.js` to reexport them as named exports.
+## 🔧 Install
 
-## Setting up
+svelte-clock is available on npm. It can be installed with the following command:
 
-* Run `npm run build` (or `yarn run build`)
-* Run `cd example`
-* Run `npm run dev` (or `yarn run dev`) to get started
-* Replace this README with your own
+```
+npm install svelte-clock --save
+```
 
-## Consuming components
+svelte-clock is available on yarn as well. It can be installed with the following command:
 
-Your package.json has a `"svelte"` field pointing to `src/index.js`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`). **This is recommended.**
+```
+yarn add svelte-clock --save
+```
 
-For everyone else, `npm run build` will bundle your component's source code into a plain JavaScript module (`dist/index.mjs`) and a UMD script (`dist/index.js`). This will happen automatically when you publish your component to npm, courtesy of the `prepublishOnly` hook in package.json.
+**Note:** Install as a dev dependency ( `npm install svelte-clock -D` ) ( `yarn add svelte-clock --dev` ) if using [Sapper](https://sapper.svelte.dev) to avoid a SSR error.
 
-## License
+## 💡 Usage
 
-MIT © Bunlong
+```js
+<script>
+  import Clock from 'svelte-clock';
+</script>
+
+<Clock />
+```
+
+## ❗ Issues
+
+If you think any of the `svelte-clock` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
+
+## 🌟 Contribution
+
+We'd love to have your helping hand on contributions to `svelte-clock` by forking and sending a pull request!
+
+Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
+
+How to contribute:
+
+- Open pull request with improvements
+- Discuss ideas in issues
+- Spread the word
+- Reach out with any feedback
+
+## ⚖️ License
+
+The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
