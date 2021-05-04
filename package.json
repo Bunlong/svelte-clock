@@ -4,7 +4,14 @@
   "description": "An analog clock for your Svelte apps.",
   "author": "Bunlong",
   "license": "MIT",
-  "repository": "Bunlong/svelte-clock",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bunlong/svelte-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bunlong/svelte-clock.git/issues"
+  },
+  "homepage": "https://github.com/Bunlong/svelte-clock",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -20,7 +27,10 @@
     "svelte": "^3.0.0"
   },
   "keywords": [
-    "svelte"
+    "svelte",
+    "sveltejs",
+    "svelte-clock",
+    "clock"
   ],
   "files": [
     "src",
